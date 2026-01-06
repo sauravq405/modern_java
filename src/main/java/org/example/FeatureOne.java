@@ -7,6 +7,7 @@ public class FeatureOne {
     //FEATURE ONE: RECORDS
     //USED AS SUBSTITUTE TO DATA/DTP CLASSES
     //Java 16 official, Java 17 LTS
+    //
 
     static void main() {
         //SUPPOSE WE WANT A POJO OF LOGINREQUEST

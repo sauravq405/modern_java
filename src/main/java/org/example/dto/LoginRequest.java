@@ -4,6 +4,7 @@ public class LoginRequest {
 
         private String uname;
         private String pwd;
+        //
 
     public LoginRequest() {
     }

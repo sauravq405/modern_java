@@ -7,6 +7,7 @@ public class FeatureTwo {
     // was officially introduced as a permanent feature in Java 16 (March 2021).
     //No casting is required
     //Used for validations
+    //
 
     static void main() {
         patternMatchingExample("hello");
