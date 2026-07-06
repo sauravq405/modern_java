@@ -1,6 +1,8 @@
 package org.example;
 
-import org.example.dto.LoginRequest;
+//import org.example.dto.LoginRequest;
+
+import org.example.records.LoginRequest;
 
 public class FeatureOne {
 
@@ -21,10 +23,10 @@ public class FeatureOne {
         //MODERN WAY : Using records
         LoginRequest loginRequest = new LoginRequest("admin", "admin");
         System.out.println(loginRequest);
-        System.out.println(loginRequest.getUname());
-        System.out.println(loginRequest.getPwd());
+        System.out.println(loginRequest.uname());
+        System.out.println(loginRequest.pwd());
 
-        //Records are immutble, readable, zero boiler plate code
+        //Records are immutable, readable, zero boiler plate code
 
     }
 

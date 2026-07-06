@@ -4,7 +4,8 @@ public class FeatureThree {
 
     //FEATURE THREE: ENHANCED SWITCH OR SWITCH EXPRESSION
     //Switch Expression syntax was introduced as a standard feature in Java 14.
-    //
+    // no break is required now
+    // now switch expression can return value
     static void main() {
         switchExpressionExample("Monday");
     }
