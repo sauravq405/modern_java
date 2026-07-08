@@ -8,6 +8,7 @@ public class FeatureSix {
     //FEATURE FIVE: var - Local Type Inference
     // use var keyword to declare local variables
     // Java 10 introduced var for local variable type inference (JEP 286) in March 2018.
+    //IMPORTANT : use var only when the type is obvious
     static void main() {
 
         localVariablesUsingVarKeyword();
@@ -27,6 +28,7 @@ public class FeatureSix {
         System.out.println(salary);
         System.out.println(age);
         System.out.println(index);
+        System.out.println(randomName);
     }
 
     private static void localVariablesWithOutVarKeywordInOldWay() {
